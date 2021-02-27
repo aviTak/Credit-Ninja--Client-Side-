@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Lora&display=swap');
+
+/*Phone-Portrait*/
+
+@media only screen and (max-width: 599px) {
+  html {
+    font-size: 65%; 
+  }
+}
+
+/*Tablet-Portrait*/
+
+@media only screen and (min-width: 600px) and (max-width: 900px) and (min-height: 600px) {
+  html {
+    font-size: 85%;
+  }
+}
+
+/*Phone-Landscape*/
+
+@media only screen and (min-width: 500px) and (max-width: 900px) and (max-height: 600px) {
+  html {
+    font-size: 65%; 
+  }
+}
+
+/* Tablet-Landscape*/
+
+@media only screen and (min-width: 900px) and (max-width: 1200px) and (max-height: 900px) {
+  html {
+    font-size: 85%; 
+  }
+}

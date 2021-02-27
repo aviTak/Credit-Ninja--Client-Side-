@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
+
+.main_app{
+    background-color: #963852;
+    color: #f2dbe2;
+    font-family: 'Playfair Display';
+    font-size: 2rem;
+    line-height: 2.2em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.header{
+    position: relative;
+}
+
+.logout{
+    position: absolute;
+    right: 3%;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}

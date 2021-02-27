@@ -1,0 +1,127 @@
+.label_signin, .input_signin, .button_signin{
+    display: block;
+}
+
+.heading_welcome{
+    font-family: Lora;
+    font-size: 2.15rem;
+    color: #000000;
+    text-align: center;
+    padding: 2.2% 7.5%;
+}
+
+.body_signin{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: fit-content;
+    margin: 1.4rem 0 2rem 0;
+}
+
+.forgot:link, .forgot:visited{
+    font-size: 1.2rem;
+    margin-bottom: 1.8rem;
+    display: inline-block;
+    color:  #177d89;
+}
+
+.redirect_signin:link, .redirect_signin:visited{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    display: inline-block;
+    margin: 2.5rem 0 6rem 0;
+    font-size: 1.4rem;
+    color: #d4724b;
+}
+
+.label_signin, .input_signin{
+    width: 35vw;
+}
+
+.label_signin{
+    font-size: 1.4rem;
+    margin-bottom: .8rem;
+}
+
+.input_signin{
+    font-size: 1.3rem;
+    margin-bottom: 1.8rem;
+    padding: .7rem .8rem;
+    outline: none;
+    border: 1px solid #000000;
+}
+
+.input_signin:focus{
+    outline: #68363a 2px groove;
+    border: 1px #68363a solid;
+}
+
+.button_signin{
+    font-size: 1.4rem;
+    margin-bottom: 1.8rem;
+    position: relative;
+    left: 100%;
+    transform: translateX(-100%);
+    outline: none;
+    padding: .7rem 2rem;
+    cursor: pointer;
+    color: #fff1e5;
+    background-color: #177d89;
+    border: 2px solid transparent;
+    transition: all .4s ease-out;
+}
+
+.button_signin:hover{
+    color: #177d89;
+    border: 2px solid #177d89;
+    background-color: #fff1e5;
+}
+
+.message_signin{
+    font-size: 1.2rem;
+    text-align: center;
+    color: #177d89;
+    border: 2px solid #177d89;
+    padding: 2% 0;
+    margin-top: 3rem;
+}
+
+.message_signin_error{
+    color: #ff0000;
+    border: 2px solid #ff0000;
+}
+
+
+
+/*Phone-Portrait*/
+
+@media only screen and (max-width: 599px) {
+    .label_signin, .input_signin{
+        width: 85vw;
+    }
+}
+  
+/*Tablet-Portrait*/
+
+@media only screen and (min-width: 600px) and (max-width: 900px) and (min-height: 600px) {
+    .label_signin, .input_signin{
+        width: 70vw;
+    }
+}
+
+/*Phone-Landscape*/
+
+@media only screen and (min-width: 500px) and (max-width: 900px) and (max-height: 600px) {
+    .label_signin, .input_signin{
+        width: 65vw;
+    }
+}
+
+/* Tablet-Landscape*/
+
+@media only screen and (min-width: 900px) and (max-width: 1200px) and (max-height: 900px) {
+    .label_signin, .input_signin{
+        width: 55vw;
+    }
+}

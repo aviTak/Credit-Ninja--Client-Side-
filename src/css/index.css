@@ -1,0 +1,34 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 94%;
+  overflow-x: hidden;
+  height: -webkit-fill-available;
+}
+
+body {
+  font-size: 1.6rem;
+  box-sizing: border-box;
+  font-weight: 400;
+  -webkit-tap-highlight-color: transparent;
+  overflow-x: hidden;
+  overflow-y: auto;
+  position: relative;
+  background-color: #fff1e5;
+  font-family: Lato;
+  color: #33302e;
+  min-height: 100vh;
+  min-height: calc(var(--vh, 1vh) * 100);
+  /* min-height: -webkit-fill-available; */
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

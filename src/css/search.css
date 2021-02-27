@@ -1,0 +1,56 @@
+.auto_link:link, .auto_link:visited, .zero{
+    display: block;
+    line-height: 2em;
+    font-size: 1.4rem;
+    color:  #33302e;
+    padding: .3rem .8rem;
+    text-decoration: none;
+    transform: all .4s ease-out;
+}
+
+.heading_search{
+    font-family: Lora;
+    font-size: 2.15rem;
+    color: #000000;
+    text-align: center;
+    padding: 2.2% 7.5%;
+}
+
+.search_bar{
+    width: 100%;
+    font-size: 1.3rem;
+    padding: .7rem .8rem;
+    outline: none;
+    border: 1px solid #000000;
+    margin-top: 1.4rem;
+    margin-bottom: 1.4rem;
+}
+
+.search_bar:focus{
+    outline: #68363a 2px groove;
+    border: 1px #68363a solid;
+}
+
+.auto_container{
+    width: 85%;
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+    border: solid 1px #000000;
+    position: absolute;
+    max-height: 50vh;
+    overflow: auto;
+    z-index: 99999;
+    background-color: #ffffff;
+}
+
+.search_can{
+    position: relative;
+    width: 85%;
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+}
+
+.auto_link:hover{
+    background-color: #d4724b;
+    color: #ffffff;
+}
